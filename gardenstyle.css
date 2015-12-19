@@ -1,7 +1,14 @@
-h1,h2,h3,h4,h5,h6{
+
+
+h1, h2{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    //letter-spacing: 1px;
     font-weight: bold;
+}
+
+h3,h4,h5,h6{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: slategray;
 }
 
 body{
@@ -11,7 +18,6 @@ body{
 
 
 .intro {
-    width: 100%;
     margin:auto;
     margin-bottom: 50px;
 }
@@ -24,16 +30,19 @@ body{
 }
 
 .intro header h2 {
+    width: 100%;
     margin:0;
     text-align: center;
-    background-color: gray;
     padding: 10px;
     padding-top: 100px;
     background-color: #FFEBF8;
 }
+#zen-supporting{
+    width: 100%;
+    margin: 0;
+}
 .summary{
     width: 100%;
-    background-color: gray;
     margin: auto;
     padding:10px;
     background-color: #FFEBF8;
@@ -46,7 +55,6 @@ body{
 }
 
 .preamble {
-    background-color: gray;
     width: 100%;
     margin: auto;
     padding: 10px;
@@ -97,6 +105,8 @@ body{
     color: white;
 }
 
+
+
 .requirements {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -119,6 +129,7 @@ body{
 }
 
 footer{
+
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -140,5 +151,69 @@ footer a:hover{
     color: #363636;
     text-decoration: none;
     font-weight: bold;
-    test
+
+}
+.wrapper{
+    width: 65%;
+    margin: auto;
+
+}
+
+.design-selection {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 40%;
+    float: left;
+}
+
+
+.design-selection ul {
+    padding: 0;
+}
+
+.design-selection ul li {
+    list-style: none;
+
+}
+.design-selection ul li a{
+    text-decoration: none;
+}
+.design-name {
+    display: block;
+    font-weight: bold;
+    color: cadetblue;
+}
+.designer-name {
+    color: black;
+
+}
+.design-archives{
+    margin: auto;
+    padding-top: 100px;
+    width: 40%;
+    float: right;
+}
+
+.design-archives ul{
+    list-style: none;
+    padding:0;
+    display: block;
+}
+.design-archives ul li a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.zen-resources{
+    margin: auto;
+    width: 40%;
+    float: right;
+}
+.zen-resources ul{
+    padding:0;
+    list-style: none;
+}
+.zen-resources ul li a{
+    text-decoration: none;
+    color: cadetblue;
 }
