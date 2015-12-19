@@ -34,11 +34,13 @@ body{
 }
 
 .intro header h1 {
-    background: url('katt.jpg') no-repeat center;
+    background: url('totoroheader.jpg') no-repeat center;
     height: 500px;
     text-align: center;
-    vertical-align: bottom;
+    line-height: 620px;
 }
+
+
 
 .intro header h2 {
     width: 100%;
