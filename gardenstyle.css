@@ -1,4 +1,15 @@
+a{
+    text-decoration: none;
+    color: #476481;
+    font-weight: bold;
 
+}
+
+ a:hover {
+    color: #476481;
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
 h1, h2{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -183,11 +194,17 @@ footer a:hover{
     display: block;
     font-weight: bold;
     color: cadetblue;
+
 }
 .designer-name {
     color: black;
+}
+
+.designer-name:hover{
+     color: #476481;
 
 }
+
 .design-archives{
     margin: auto;
     padding-top: 100px;
@@ -204,6 +221,10 @@ footer a:hover{
     text-decoration: none;
     color: cadetblue;
 }
+
+.design-archives ul li a:hover{
+    color: #476481;
+}
 .zen-resources{
     margin: auto;
     width: 40%;
@@ -216,4 +237,8 @@ footer a:hover{
 .zen-resources ul li a{
     text-decoration: none;
     color: cadetblue;
+}
+
+.zen-resources ul li a:hover{
+    color: #476481;
 }
