@@ -1,0 +1,84 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    //letter-spacing: 1px;
+    font-weight: bold;
+}
+
+body{
+    margin: auto;
+    width:100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.intro {
+    width: 100%;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.intro header h1 {
+    background: url('katt.jpg') no-repeat center;
+    height: 500px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.intro header h2 {
+    margin:0;
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    padding-top: 100px;
+    background-color: #FFEBF8;
+}
+.summary{
+    width: 100%;
+    background-color: gray;
+    margin: auto;
+    padding:10px;
+    background-color: #FFEBF8;
+}
+.summary p{
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+    background-color: #FFEBF8;
+}
+
+.preamble {
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    padding-bottom:100px;
+    background-color: #FFEBF8;
+}
+.preamble h3{
+    width: 60%;
+    margin: auto;
+    padding:20px;
+    background-color: #FFEBF8;
+}
+.preamble p{
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+    background-color: #FFEBF8;
+}
+
+.explanation {
+    width: 35%;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 200px;
+}
+
+.participation {
+    margin-top: 120px;
+    width: 35%;
+    margin-left: 10%;
+}
+.benefits{
+    clear: both;
+}
