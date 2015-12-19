@@ -6,7 +6,6 @@ h1,h2,h3,h4,h5,h6{
 
 body{
     margin: auto;
-    width:100%;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -80,5 +79,65 @@ body{
     margin-left: 10%;
 }
 .benefits{
+    padding-top: 120px;
     clear: both;
+    padding-bottom: 100px;
+    background: url('totoro.jpg') no-repeat right bottom;
+    background-color: black;
+}
+.benefits h3{
+    margin-left: 10%;
+    color: white;
+
+}
+
+.benefits p{
+    margin-left: 10%;
+    width: 60%;
+    color: white;
+}
+
+.requirements {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 65%;
+    margin: auto;
+}
+
+.requirements h3{
+    text-align: center;
+}
+
+.requirements p:nth-child(5){
+    padding-bottom: 60px;
+    background: url("dustbunnies.jpg") no-repeat bottom center;
+}
+.requirements p:nth-child(6){
+    width: 60%;
+    margin: auto;
+    font-size: 0.8em;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(197, 242, 236, 0.64);
+}
+
+
+
+
+footer a{
+    margin: 20px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+footer a:hover{
+    margin: 20px;
+    color: #363636;
+    text-decoration: none;
+    font-weight: bold;
 }
